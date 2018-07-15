@@ -20,12 +20,6 @@
             android:name=".Sort_Artist"
             android:label="Sorted by Artist" />
         <activity
-            android:name=".Music_Array"
-            android:label="Music Array" />
-        <activity
-            android:name=".Sort_Song"
-            android:label="Sorted by Song" />
-        <activity
         android:name=".Now_Playing"
         android:label="Now Playing" />
     </application>

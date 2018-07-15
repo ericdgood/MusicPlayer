@@ -32,39 +32,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(artistIntent);
             }
         });
-
-        // Find the View that shows the numbers category
-        TextView song = (TextView) findViewById(R.id.songSort);
-
-        // Set a click listener on that View
-        song.setOnClickListener(new View.OnClickListener()
-
-        {
-            // The code in this method will be executed when the numbers View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent artistIntent = new Intent(MainActivity.this, Sort_Song.class);
-
-                // Start the new activity
-                startActivity(artistIntent);
-            }
-        });
-
-        // Find the View that shows the numbers category
-        TextView play = (TextView) findViewById(R.id.nowPlaying);
-
-        // Set a click listener on that View
-        play.setOnClickListener(new View.OnClickListener()
-
-        {
-            // The code in this method will be executed when the numbers View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent artistIntent = new Intent(MainActivity.this, Now_Playing.class);
-
-                // Start the new activity
-                startActivity(artistIntent);
-            }
-        });
     }
 }
