@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--APP TITLE-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:text="@string/app_name"
+            android:textSize="26sp" />
+
+
+        <!--RANDOM ARTIST LAYOUT-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/nowPlaying"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/random_artist"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/randomAlbumImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:src="@drawable/thriller"
+                android:contentDescription="@string/album_cover" />
+
+        </LinearLayout>
+
+        <!--BUTTONS FOR SELECTIONS-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sort"
+                android:gravity="center_horizontal"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/artistSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/artist"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/text"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/songSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/song"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/text"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

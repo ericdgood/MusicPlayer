@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Now_Playing"
+    android:orientation="vertical"
+    android:id="@+id/play"
+    tools:ignore="AdapterViewChildren">
+
+
+    <ImageView
+        android:id="@+id/albumCover"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        tools:background="@drawable/queen"/>
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="21sp"
+        android:padding="5dp"
+        tools:text="Thriller"/>
+
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Michael Jackson"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="random_artist">Random Artist</string>
+    <string name="sort">Sort Music By</string>
+    <string name="artist">Artist</string>
+    <string name="song">Song</string>
+    <string name="album_cover">Album Cover</string>
+</resources>
