@@ -17,9 +17,8 @@ public class Music {
     private Integer coverAlbum;
 
 
-//     CREATING SONG INFO OBJECTS.
-    public Music(String artistName, String songName, Integer albumCover)
-    {
+    //     CREATING SONG INFO OBJECTS.
+    public Music(String artistName, String songName, Integer albumCover) {
         nameArtist = artistName;
         nameSong = songName;
         coverAlbum = albumCover;
@@ -36,7 +35,7 @@ public class Music {
         return nameSong;
     }
 
-//    DISPLAY ALBUM COVER
+    //    DISPLAY ALBUM COVER
     public Integer displayAlbumCover() {
         return coverAlbum;
     }

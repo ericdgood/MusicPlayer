@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Sort_Artist extends AppCompatActivity{
+public class Sort_Artist extends AppCompatActivity {
 
     // Creates keys for ListView item data
     public static final String KEY_SONG = "KEY_SONG";
@@ -45,7 +45,7 @@ public class Sort_Artist extends AppCompatActivity{
         music.add(new Music("John Lennon", "Imagine", R.drawable.imagine));
         music.add(new Music("Chuck Berry", "Johnny B Goode", R.drawable.chuck));
 
-        final MusicAdapter adapter = new MusicAdapter(this , music);
+        final MusicAdapter adapter = new MusicAdapter(this, music);
 
         ListView listView = findViewById(R.id.artistlist);
 
@@ -63,6 +63,7 @@ public class Sort_Artist extends AppCompatActivity{
                 nowPlaying.putExtra(KEY_ARTIST, item.displayArtistName());
                 startActivity(nowPlaying);
             }
-    });
+        });
 
-}}
+    }
+}

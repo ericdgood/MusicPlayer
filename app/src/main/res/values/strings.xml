@@ -6,4 +6,5 @@
     <string name="song">Song</string>
     <string name="album_cover">Album Cover</string>
     <string name="all_songs">All Songs</string>
+    <string name="playing">Now Playing</string>
 </resources>

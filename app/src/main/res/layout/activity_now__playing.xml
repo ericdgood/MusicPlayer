@@ -1,38 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/play"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Now_Playing"
     android:orientation="vertical"
-    android:id="@+id/play"
+    tools:context=".Now_Playing"
     tools:ignore="AdapterViewChildren">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/playing"
+        android:textSize="36sp" />
 
 
     <ImageView
         android:id="@+id/albumCover"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_margin="20dp"
         android:layout_gravity="center"
-        tools:background="@drawable/queen"/>
+        android:layout_margin="20dp"
+        tools:background="@drawable/queen" />
 
     <TextView
         android:id="@+id/songName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:textSize="21sp"
         android:padding="5dp"
-        tools:text="Thriller"/>
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:text="Thriller" />
 
     <TextView
         android:id="@+id/artistName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Michael Jackson"
         android:gravity="center_horizontal"
-        android:textSize="16sp"/>
+        android:textSize="18sp"
+        tools:text="Michael Jackson" />
 
 
 </LinearLayout>

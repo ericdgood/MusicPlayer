@@ -33,13 +33,13 @@
                 android:id="@+id/artistSort"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/all_songs"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/text"
-                android:gravity="center_horizontal"
-                android:textSize="18sp"
                 android:layout_margin="10dp"
-                android:padding="10dp"/>
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/all_songs"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
 
 
         </LinearLayout>
