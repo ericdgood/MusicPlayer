@@ -19,11 +19,13 @@
         </activity>
         <activity
             android:name=".Song_List"
-            android:label="Sorted by Artist" />
+            android:label="Sorted by Artist"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean" />
         <activity
         android:name=".Now_Playing"
         android:label="Now Playing"
-        android:parentActivityName=".MainActivity"
+        android:parentActivityName=".Song_List"
             tools:targetApi="jelly_bean" />
     </application>
 
