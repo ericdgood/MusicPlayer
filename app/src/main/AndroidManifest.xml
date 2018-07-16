@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.musicplayer">
 
     <application
@@ -17,11 +18,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Sort_Artist"
+            android:name=".Song_List"
             android:label="Sorted by Artist" />
         <activity
         android:name=".Now_Playing"
-        android:label="Now Playing" />
+        android:label="Now Playing"
+        android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean" />
     </application>
+
 
 </manifest>

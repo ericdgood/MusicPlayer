@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Sort_Artist extends AppCompatActivity {
+public class Song_List extends AppCompatActivity {
 
     // Creates keys for ListView item data
     public static final String KEY_SONG = "KEY_SONG";

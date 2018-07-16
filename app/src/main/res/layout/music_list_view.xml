@@ -9,4 +9,4 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="com.example.android.musicplayer.Sort_Artist" />
+    tools:context="com.example.android.musicplayer.Song_List" />

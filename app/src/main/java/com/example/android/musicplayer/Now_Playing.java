@@ -1,21 +1,15 @@
 package com.example.android.musicplayer;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
-import static com.example.android.musicplayer.Sort_Artist.KEY_ALBUM;
-import static com.example.android.musicplayer.Sort_Artist.KEY_ARTIST;
-import static com.example.android.musicplayer.Sort_Artist.KEY_SONG;
-import static com.example.android.musicplayer.Sort_Artist.resId;
+import static com.example.android.musicplayer.Song_List.KEY_ALBUM;
+import static com.example.android.musicplayer.Song_List.KEY_ARTIST;
+import static com.example.android.musicplayer.Song_List.KEY_SONG;
+import static com.example.android.musicplayer.Song_List.resId;
 
 public class Now_Playing extends AppCompatActivity {
 
